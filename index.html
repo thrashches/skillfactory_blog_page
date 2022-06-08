@@ -1,27 +1,156 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-<title>Hello, world!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Home page</title>
 </head>
+
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar__section">
+                <a class="navbar__brand" href="#">HotCoffee</a>
+            </div>
+            <div class="navbar__section">
+                <div class="search">
+                    <form>
+                        <button class="search__button" type="submit">
+                            <img class="search__icon" alt="search" src="/assets/img/svg/search.svg">
+                        </button>
+                        <input class="search__input" type="text" name="search" placeholder="Search...">
+                    </form>
+                </div>
+            </div>
+            <div class="navbar__section">
+                <div class="navbar__links">
+                    <a href="#" class="navbar__link link-underscore">Home</a>
+                    <a href="#" class="navbar__link link-underscore">Articles</a>
+                    <div class="social-links">
+                        <a href="#" class="social-links__link"><img src="/assets/img/svg/instagram.svg"
+                                alt="Instagram"></a>
+                        <a href="#" class="social-links__link"><img src="/assets/img/svg/twitter.svg" alt="Twitter"></a>
+                        <a href="#" class="social-links__link"><img src="/assets/img/svg/linkedin.svg"
+                                alt="Linkedin"></a>
+                    </div>
 
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="bg__light-gray">
+            <div class="container">
+                <div class="head-section horizontal">
+                    <div class="head-section__block">
+                        <div class="head-section__text">
+                            <h1 class="lead-header__primary">Make better coffee <img class="lead-header__img"
+                                    src="/assets/img/png/coffee.png" alt="coffee" width="70" height="67"></h1>
+                            <h3 class="lead-header__secondary">why learn how to blog?</h3>
+                        </div>
+                    </div>
+                    <div class="head-section__block">
+                        <img class="head-section__block__img" alt="croods" src="/assets/img/svg/croods.svg">
+                    </div>
+                </div>
+            </div>
 
-{:<h1>Hello, world!</h1>}
+        </section>
 
+        <div class="container">
+            <article class="article-block responsive">
+                <div class="article-block__text">
+                    <h1>long established</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when
+                        looking at its layout. The point of using Lorem Ipsum is that....</p>
+                    <div class="article-block__bottom">
+                        <p>May 20th 2020</p><a class="article-block__link link-underscore" href="/details.html">Read more</a>
+                    </div>
 
+                </div>
+                <div class="article-block__img">
+                    <img class="vertical-fill-img" src="/assets/img/png/image 1.png" alt="long established">
+                </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            </article>
+            <div class="responsive horizontal space-between">
+                <article class="article-block vertical">
+                    <div class="article-block__img">
+                        <img src="/assets/img/png/image 2.png" alt="" class="horizontal-fill-img br-top-5">
+                    </div>
+                    <div class="article-block__text p-15">
+                        <h1>long established</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+                        <div class="article-block__bottom">
+                            <p>May 20th 2020</p><a href="/details.html" class="article-block__link link-underscore">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-block vertical">
+                    <div class="article-block__img">
+                        <img src="/assets/img/png/image 4.png" alt="" class="horizontal-fill-img br-top-5">
+                    </div>
+                    <div class="article-block__text p-15">
+                        <h1>long established</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+                        <div class="article-block__bottom">
+                            <p>May 20th 2020</p><a href="/details.html" class="article-block__link link-underscore">Read more</a>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-block vertical">
+                    <div class="article-block__img">
+                        <img src="/assets/img/png/image 5.png" alt="" class="horizontal-fill-img br-top-5">
+                    </div>
+                    <div class="article-block__text p-15">
+                        <h1>long established</h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+                        <div class="article-block__bottom">
+                            <p>May 20th 2020</p><a href="/details.html" class="article-block__link link-underscore">Read more</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <article class="article-block custom">
+                <div class="article-block__text large">
+                    <h1>What is Lorem Ipsum?</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page
+                        when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                        distribution...</p>
+                    <div class="article-block__bottom large">
+                        <p>May 20</p><a href="/details.html" class="article-block__link link-underscore">Read more</a>
+                    </div>
+                </div>
+                <div class="article-block__img">
+                    <img src="/assets/img/png/image 7.png" alt="" class="article-block__img__large">
+                </div>
+            </article>
+            <div class="btn-block">
+                <button class="btn">See more <i class="icon-down"></i></button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container p-0">
+            <div class="footer">
+                <div class="footer__copyright"><p><b>hotcoffee</b> 2020 copyright all rights reserved</p></div>
+                <div class="social-links">
+                    <a href="#" class="social-links__link"><img src="/assets/img/svg/instagram.svg" alt="Instagram"></a>
+                    <a href="#" class="social-links__link"><img src="/assets/img/svg/twitter.svg" alt="Twitter"></a>
+                    <a href="#" class="social-links__link"><img src="/assets/img/svg/linkedin.svg" alt="Linkedin"></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
 </body>
+
 </html>
